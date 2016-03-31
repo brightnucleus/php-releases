@@ -39,6 +39,7 @@ $exists = $releases->exists( '7.0.0' ); // Returns true.
 // Get the release date of a specific version.
 $date = $releases->getReleaseDate( '7.0.0' ); // Returns DateTime object for 2015-12-03.
 
+// Get all the release data.
 $array = $releases->getAll(); // Returns an array in the format: '<version>' => '<release date>'
 ```
 
